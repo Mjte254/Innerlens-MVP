@@ -1,38 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>InnerLens - Home</title>
-    <link rel="stylesheet" href="css/innerlens.css">
-</head>
-<body>
-    <div class="container">
-        <header class="header">
-            <div class="logo">
-                <h1>INNER<span>LENS</span></h1>
-            </div>
-            <nav class="nav">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Blogs</a></li>
-                    <li><a href="#">Share</a></li>
-                </ul>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>InnerLens</title>
+
+        <!-- box icons-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+         <!-- css-->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- favicon -->
+        <link rel="shortcut icon" type="image/png" href="images/logoinn.png">
+    </head>
+    <body>
+        <header class="in-head">
+            <a href="#" class="logo">INNER<span>LENS</span></a>
+            <nav class="navbar">
+                <a href="index.html" class="active">Home</a>                
+                <a href="types.html">The Types</a>
+                <a href="blog.html">Blogs</a>
+                <a href="Share.html">Share</a>
             </nav>
         </header>
-        
-        <section class="main-content">
-            <div class="left-section">
-                <h2>Discover your creative personality</h2>
-                <button class="start-test-btn">Start Test</button>
-            </div>
-            <div class="center-section">
-                <img src="images/innerlens-logo.png" alt="InnerLens Logo" class="logo-img">
-            </div>
-            <div class="right-section">
-                <button class="types-btn">The Types</button>
+        <section class="land" id="home">
+            <div class="group">
+                <div class="text-box">
+                    <h3>Discover your Creative Personality</h3>                    
+                    <div class="tags">
+                        <a href="#about" class="btn">Read More</a>
+                        <a href="" class="btn">Start Test</a>
+                    </div>
+                </div>
+                <div class="home-img">
+                    <img src="images/logoinn.png" alt="">
+                </div>
             </div>
         </section>
-    </div>
-</body>
+        <section class="about" id="about">
+            <div class="about-cont">
+                <h4 class="headsup">About <span>Us</span></h4>
+                <p>The INNERLENS is a powerful tool that can help you understand your personality traits. 
+                    By answering a series of questions, the INNERLENS will analyze your responses and provide 
+                    you with insights into your unique personality. Start your journey of self discovery today.</p> <br> <br>
+                <a href="#features" class="btn">Features</a>
+            </div>
+            <img src="images/logoinn.png" alt="">
+        </section>
+        <section class="features" id="features">
+            <h4 class="headsup">Key <span>Features</span></h4>
+            <p>Discover the Key Features of INNERLENS</p>
+            <div class="fet-cont">
+                <div class="fet-det">
+                    <h6>Accurate Assessment</h6>
+                    <p>Get precise and reliable personality assessment</p>
+                </div>
+                <div class="fet-det">
+                    <h6>Detailed Reports</h6>
+                    <p>Receive comprehensive and in-depth personality reports</p>
+                </div>
+                <div class="fet-det">
+                    <h6>Personalized Recommendations</h6>
+                    <p>Receive tailored recommendations based on your personality.</p>
+                </div>
+            </div>
+            <a href="#contact" class="btn">Contact Us</a>
+        </section>
+        <section class="contact" id="contact">
+            <h4 class="headsup"><span>Contact </span>Us</h4>
+            <div class="cont-cont">
+                <div class="cont-det">
+                    <div class="cont-men">
+                        <i class='bx bxs-phone-incoming'></i>
+                        <h6>Ring</h6>
+                        <p>+1 123-456-7890</p>
+                    </div>
+                    <div class="cont-men">
+                        <i class='bx bx-message-rounded-dots' ></i>
+                        <h6>Text</h6>
+                        <p>+1 123-456-7890</p>
+                    </div>
+                    <div class="cont-men">
+                        <i class='bx bxl-gmail' ></i>
+                        <h6>Mail</h6>
+                        <p>info@innerlens.com</p>
+                    </div>
+                    <div class="cont-men">
+                        <i class='bx bx-current-location' ></i>
+                        <h6>Address</h6>
+                        <p>P-Drive 136P</p>
+                    </div>
+                    <a href="#home" class="btn">Back To Top</a>
+                </div>
+                <div class="cont-form">
+                    <form action="#">
+                        <div class="input-box">
+                            <input type="text" placeholder="Full Name">
+                            <input type="email" placeholder="Email Address">
+                        </div>
+                        <div class="input-box">
+                            <input type="number" placeholder="Mobile Number">
+                            <input type="email" placeholder="Email Subject">
+                        </div>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                        <input type="submit" value="Send Message" class="btn">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </body>
 </html>
