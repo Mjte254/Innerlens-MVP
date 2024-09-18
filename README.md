@@ -1,63 +1,112 @@
-Project Name: InnerLens
-1. Tagline: Unlock insights into your personality with just a few clicks.
+# InnerLens
+Discover your Creative Personality Instantly
+ <!-- favicon -->
+<link rel="shortcut icon" type="image/png" href="images/logoinn.png">
+## Introduction
+InnerLens is a personality assessment platform that uses cutting-edge NLP and machine learning techniques to provide users with insightful assessments of their personalities. It is designed to empower individuals by giving them a deeper understanding of their personality traits through a quick, interactive test. InnerLens offers personalized recommendations and detailed reports based on user responses.
 
-2. Member
-Maxwell Ombogo:  Full-stack Developer
-Project Manager: Experience in managing psychological and data-driven projects makes her ideal for overseeing the development and ensuring the project aligns with user needs. 
-Roles:
-Data Scientist
-Reason: specializes in psychological data analysis and will handle the algorithms that interpret user responses to identify personality traits.
-Frontend Developer
-Reason: Skills in creating interactive and responsive user interfaces will ensure the app is engaging and easy to use.
-Backend Developer
-Reason: Expertise in secure data handling and API development will ensure the app processes user data efficiently and safely.
-QA Engineer
-Reason: A thorough approach to testing will ensure the app functions smoothly and provides accurate personality insights.
+Start your self-discovery journey with us!
 
-3. Technologies
-Technologies:
-Frontend: React.js
-Backend: Flask (Python), PyTorch
-Database: MySQL
-Machine Learning: NLP, Python
-Version Control: Git and GitHub
-Hosting: Heroku
-Design Tools: Adobe XD, Figma
-Testing: PyTest
+## Deployed Site:
+<a href="https://8ebhs9mnxzasint2c0gk0a.on.drv.tw/www.innerlens.com/" target="_blank">InnerLens App</a> <!-- Add the actual link to your deployed app here -->
 
-4. Challenge Statement
-Challenge:
-The InnerLens app aims to solve the challenge of providing users with quick, accurate, and insightful personality assessments based on their responses to carefully curated questions.
-What It Will Not Solve:
-The app does not diagnose psychological conditions or provide in-depth psychological counseling. It focuses solely on identifying general personality traits.
-Target Users:
-The primary users are individuals interested in learning more about their personality traits, including students, professionals, and those looking for personal development insights.
-Locale Dependency:
-The project is not locale-dependent and can be used by individuals worldwide, though the assessments might be tailored to cultural contexts if needed.
+## Final Project Blog:
+<a href="file:///C:/Users/Mjte_254/Desktop/InnerLens/blog.html" target="_blank">InnerLens Blog Article</a> <!-- Add the actual link to your blog article here -->
 
-5. Risks
-Technical Risks:
-Risk: Inaccurate personality identification due to algorithm limitations.
-Impact: Users may feel the results could be more reflective of their true personality, leading to dissatisfaction.
-Mitigation: Update the algorithms regularly based on user feedback and incorporate more advanced machine learning techniques to improve accuracy.
-Risk: Data security concerns, as the app deals with sensitive personal information.
-Impact: Any data breach could lead to a loss of user trust and potential legal ramifications.
-Mitigation: Implement strong encryption for data storage and transmission and comply with data protection regulations like GDPR.
-Non-Technical Risks:
-Risk: Misinterpretation of results by users.
-Impact: Users may make critical decisions based on misunderstood or misinterpreted personality assessments.
-Mitigation: Provide clear explanations and disclaimers, ensuring users understand the purpose and limitations of the assessments.
+## Author's LinkedIn:
+<a href="https://www.linkedin.com/in/maxwell-ombogo-733363213/" target="_blank">Maxwell Ombogo</a> <!-- Update if needed -->
 
-6. Infrastructure
-Infrastructure:
-Branching/Merging Strategy: I will adopt the Git Flow strategy, where feature branches are developed independently and merged into the main branch after passing through a series of reviews and automated tests.
-Deployment Strategy: The app will be deployed on Heroku using a continuous integration/continuous deployment (CI/CD) pipeline to ensure that updates are automatically deployed after they pass all tests.
-Data Population: Initial data will be gathered from established psychological studies and research papers, with user responses contributing to ongoing data enrichment.
-Testing Strategy: I will use automated testing with PyTest for backend logic and Mocha for frontend components. Additionally, user testing sessions will be conducted to ensure the accuracy and usability of the personality assessments.
+## Features
+- **Accurate Assessments**: Get precise and reliable personality assessments based on scientifically grounded methods.
+- **Detailed Reports**: Receive comprehensive reports that provide deep insights into your personality.
+- **Personalized Recommendations**: Get tailored recommendations on how to maximize your strengths and work on your weaknesses.
 
-7. Existing Solutions
-Existing Solutions:
-16Personalities: Similar to InnerLens, 16Personalities offers personality assessments based on user responses. However, InnerLens aims to provide a more dynamic and customizable assessment experience with a focus on modern psychological theories.
-Myers-Briggs Type Indicator (MBTI): The MBTI is a well-known personality assessment tool, but it’s based on a fixed set of personality types. Inner Lens seeks to offer a more nuanced and flexible approach to personality identification, allowing for a broader range of traits and combinations.
-Reimplementation Decision:
-I have decided to create the InnerLens app because existing solutions like 16Personalities and MBTI provide a more rigid, one-size-fits-all approach to personality assessments. By reimplementing and expanding upon these ideas, InnerLens offers a more personalized and scientifically grounded analysis of personality traits.
+## Installation
+To install and run InnerLens locally, follow these steps:
+
+### Pre-requisites:
+- Node.js
+- Flask
+- MySQL
+- PyTorch
+
+### Steps:
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/Mjte254/innerlens.git
+    cd innerlens
+    ```
+
+2. Install necessary dependencies:
+
+    ```bash
+    npm install # for the frontend
+    pip install -r requirements.txt # for the backend
+    ```
+
+3. Set up the database:
+
+    ```bash
+    mysql -u root -p < create_db.sql
+    ```
+
+4. Start the frontend:
+
+    ```bash
+    npm start
+    ```
+
+5. Start the backend:
+
+    ```bash
+    flask run
+    ```
+
+## Usage
+- Visit the deployed site or run the application locally following the steps above.
+- Click on the "Start Test" button to begin your personality test.
+- Answer all the questions presented during the test.
+- Receive your personality assessment and detailed insights based on your answers.
+
+## Contributing
+We welcome contributions from everyone! If you want to contribute, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch:
+
+    ```bash
+    git checkout -b feature-branch
+    ```
+
+3. Make your changes and commit them:
+
+    ```bash
+    git commit -m "Added new feature"
+    ```
+
+4. Push the changes to your fork:
+
+    ```bash
+    git push origin feature-branch
+    ```
+
+5. Submit a pull request to the main repository.
+
+## Related Projects
+Here are a few projects related to InnerLens:
+- <a href="https://www.16personalities.com/" target="_blank">16Personalities</a>
+- <a href="https://www.mbtionline.com/" target="_blank">MBTI</a>
+
+## License
+InnerLens is licensed under the Apache 2.0 License.
+## Screenshot
+<img src="<img src="images/Hero page.jpg" alt="">" alt="InnerLens Screenshot" width="600"> 
+
+## Resources
+- <a href="https://8ebhs9mnxzasint2c0gk0a.on.drv.tw/www.innerlens.com/" target="_blank">InnerLens Blog</a>
+- <a href="https://github.com/Mjte254/Innerlens-MVP/pulls" target="_blank">GitHub Issues and Pull Requests</a>
+
+## Contributors
+Special thanks to our contributors:
+- <a href="https://www.linkedin.com/in/maxwell-ombogo-733363213/" target="_blank">Maxwell Ombogo</a> (Full-stack Developer)

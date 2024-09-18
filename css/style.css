@@ -245,3 +245,26 @@ section {
 .cont-men p{
     font-size: 12px;
 }
+.test-section, .result-section {
+    margin: 5rem;
+    padding: 3rem;
+    border-radius: 5%;
+    background: var(--second-bg-color);
+}
+
+.test-container, .result-container {
+    text-align: center;
+}
+
+#questionBox {
+    margin: 2rem 0;
+}
+
+.btn {
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
