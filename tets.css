@@ -1,0 +1,153 @@
+/* Global styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #F8F9FA;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 40px;
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+    transition: transform 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+h1 {
+    color: #333;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #555;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: #FF6F61;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #E65C50;
+}
+
+button:focus {
+    outline: none;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+    color: #444;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    margin-right: 12px;
+    transform: scale(1.2);
+}
+
+#questionBox p {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+#resultSection p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #28a745;
+    margin-top: 20px;
+}
+
+/* Landing page */
+.land {
+    margin-top: 50px;
+    animation: slideIn 1s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#testSection, #resultSection {
+    display: none;
+}
+
+.land button {
+    margin-top: 40px;
+    background-color: #007BFF;
+}
+
+.land button:hover {
+    background-color: #0056b3;
+}
+
+/* Progress bar */
+#progressBar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+#progressBarFill {
+    height: 10px;
+    background-color: #FF6F61;
+    width: 0%;
+    border-radius: 10px;
+    transition: width 0.4s ease;
+}
