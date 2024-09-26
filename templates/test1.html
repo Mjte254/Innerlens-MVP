@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnerLens Personality Test</title>
+    <link rel="stylesheet" href="../css/test.css">
+</head>
+<body>
+    <header class="in-head">
+        <header>
+            <div class="logo">Personality Test</div>
+        </header>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="types.html">The Types</a>
+            <a href="blog.html">Blogs</a>
+            <a href="share.html">Share</a>
+        </nav>
+    </header>
+    
+    <div class="test-section">
+        <form id="testForm" action="/submit" method="POST">
+            <div id="questionsContainer">
+                <!-- Questions will be inserted here by JavaScript -->
+            </div>
+            <div class="navigation-buttons">
+                <button type="button" id="prevBtn" style="display:none;">Previous</button>
+                <button type="button" id="nextBtn">Next Question</button>
+                <button type="submit" id="submitBtn" style="display:none;">Submit</button>
+            </div>
+        </form>
+        <div id="resultContainer" class="result-container" style="display:none;"></div>
+    </div>
+
+    <script src="../js/test3.js"></script>
+</body>
+</html>

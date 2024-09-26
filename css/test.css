@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    border-bottom: 2px solid #388E3C;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.navbar {
+    margin-top: 10px;
+}
+
+.navbar a {
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: #E8F5E9;
+}
+
+.test-section {
+    background-color: white;
+    padding: 40px;
+    margin: 40px auto;
+    width: 60%; /* Increased width for a more spacious layout */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 26px; /* Slightly larger font size */
+    color: #4CAF50; /* Matching header color */
+}
+
+.question-group {
+    margin-bottom: 20px;
+}
+
+.question-group h3 {
+    font-size: 22px; /* Increased font size for better readability */
+    margin-bottom: 10px;
+    color: #4CAF50; /* Matching header color */
+}
+
+.question label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.question select {
+    width: 100%;
+    padding: 12px; /* Slightly larger padding for better touch targets */
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #4CAF50; /* Updated border color */
+    background-color: #FAFAFA; /* Light background color for select */
+    font-size: 16px; /* Consistent font size */
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 24px; /* Slightly larger padding */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; /* Larger font size for better readability */
+    display: block;
+    margin: 20px auto; /* Added margin for spacing */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.result-container {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%; /* Consistent width with test-section */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.result-container h3 {
+    text-align: center;
+    font-size: 26px; /* Larger font size for result heading */
+    color: #4CAF50;
+}
+
+@media (max-width: 768px) {
+    .test-section, .result-container {
+        width: 90%; /* Adjust width for smaller screens */
+        padding: 20px; /* Reduced padding for smaller screens */
+    }
+
+    button {
+        padding: 10px 20px; /* Adjust button size for smaller screens */
+        font-size: 16px;
+    }
+}
